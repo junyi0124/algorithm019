@@ -1,3 +1,4 @@
+package Week_01;
 /*
  * @lc app=leetcode.cn id=26 lang=java
  *
@@ -5,7 +6,7 @@
  */
 
 // @lc code=start
-package Week_01;
+
 
 public class RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {
