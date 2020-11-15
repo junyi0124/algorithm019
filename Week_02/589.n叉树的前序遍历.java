@@ -27,7 +27,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-class Solution {
+class letCode589 {
 
     public List<Integer> preorder(Node root) {
         if(root==null) return new LinkedList<Integer>();
