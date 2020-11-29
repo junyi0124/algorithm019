@@ -187,10 +187,3 @@ public static int binarySearch(int[] arr, int start, int end, int hkey){
 ## 困难
 - 单词接龙 II （微软、亚马逊、Facebook 在半年内面试中考过）
 - 跳跃游戏 II （亚马逊、华为、字节跳动在半年内面试中考过）
-
-#学号: G20200607010920
-#姓名: 张君毅
-#班级:19期
-#语言:java
-#作业链接: https://github.com/junyi0124/algorithm019/blob/main/Week_04
-#总结链接: https://github.com/junyi0124/algorithm019/blob/main/Week_04/README.md
