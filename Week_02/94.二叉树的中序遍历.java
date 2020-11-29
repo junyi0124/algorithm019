@@ -22,7 +22,7 @@
  */
 class leetCode094 {
     public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> res = new ArrayList<Integer>();
+        List<Integer> result = new ArrayList<Integer>();
         Deque<TreeNode> list = new LinkedList<TreeNode>();
 
         while (root != null || !list.isEmpty()) {
@@ -31,10 +31,10 @@ class leetCode094 {
                 root = root.left;
             }
             root = list.pop();
-            res.add(root.val);
+            result.add(root.val);
             root = root.right;
         }
-        return res;
+        return result;
     }
 }
 // @lc code=end
