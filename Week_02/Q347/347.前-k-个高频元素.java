@@ -1,8 +1,13 @@
-/*
+package Q347;/*
  * @lc app=leetcode.cn id=347 lang=java
  *
  * [347] 前 K 个高频元素
  */
+
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.PriorityQueue;
 
 // @lc code=start
 class Solution {

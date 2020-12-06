@@ -1,8 +1,10 @@
-/*
+package Q049;/*
  * @lc app=leetcode.cn id=49 lang=java
  *
  * [49] 字母异位词分组
  */
+
+import java.util.*;
 
 // @lc code=start
 class leetCode049 {

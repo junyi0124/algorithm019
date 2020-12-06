@@ -1,4 +1,4 @@
-/*
+package Q242;/*
  * @lc app=leetcode.cn id=242 lang=java
  *
  * [242] 有效的字母异位词
@@ -7,7 +7,7 @@
 // @lc code=start
 import java.util.Arrays;
 
-public class leetCode242 {
+class leetCode242 {
 
     /**
      * 使用计数器

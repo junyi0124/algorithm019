@@ -1,4 +1,4 @@
-/*
+package Q105;/*
  * @lc app=leetcode.cn id=105 lang=java
  *
  * [105] 从前序与中序遍历序列构造二叉树
@@ -14,6 +14,9 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+import java.util.*;
+import Tree.*;
+
 class Solution {
     Map<Integer, Integer> indexMap;
 

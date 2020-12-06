@@ -3,12 +3,12 @@
  *
  * [1] 两数之和
  */
+package Q001;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 // @lc code=start
-public class leetCode001 {
+class leetCode001 {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for(int i = 0; i< nums.length; i++) {

@@ -1,4 +1,4 @@
-package Week_01;
+package Q026;
 /*
  * @lc app=leetcode.cn id=26 lang=java
  *
@@ -9,7 +9,7 @@ package Week_01;
 
 
 public class RemoveDuplicatesFromSortedArray {
-    public int removeDuplicates(int[] nums) {
+    public static int removeDuplicates(int[] nums) {
         // 长度
         int len = nums.length;
 
@@ -27,7 +27,7 @@ public class RemoveDuplicatesFromSortedArray {
     }
 
     // 官方方法
-    public int removeDuplicates_Offical(int[] nums) {
+    public static int removeDuplicates_Offical(int[] nums) {
         // 特例直接处理
         if (nums.length == 0) return 0;
         int i = 0;
@@ -39,5 +39,10 @@ public class RemoveDuplicatesFromSortedArray {
         }
         return i + 1;
     }
-    
+
+    public static void main(String[] args) {
+        int[] num = new int[] {1,1,2};
+        int result = removeDuplicates(num);
+        System.out.println("result is " + result);
+    }
 }

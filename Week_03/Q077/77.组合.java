@@ -1,8 +1,9 @@
-/*
+package Q077;/*
  * @lc app=leetcode.cn id=77 lang=java
  *
  * [77] 组合
  */
+import java.util.*;
 
 // @lc code=start
 class Solution {
