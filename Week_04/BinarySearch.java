@@ -1,3 +1,5 @@
+package Week_04;
+
 public class BinarySearch {
     public int binarySearch(int[] array, int target) {
         int left = 0, right = array.length - 1, mid;
