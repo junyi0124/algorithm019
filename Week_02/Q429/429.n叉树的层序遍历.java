@@ -1,4 +1,4 @@
-/*
+package Q429;/*
  * @lc app=leetcode.cn id=429 lang=java
  *
  * [429] N叉树的层序遍历
@@ -27,6 +27,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+
+import Tree.*;
 
 class leetCode429 {
     public List<List<Integer>> levelOrder(Node root) {

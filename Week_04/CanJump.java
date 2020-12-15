@@ -1,4 +1,3 @@
-package Week_04;
 public class CanJump {
     
     public boolean canJump(int[] nums) {

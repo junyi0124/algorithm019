@@ -1,4 +1,4 @@
-/*
+package Q236;/*
  * @lc app=leetcode.cn id=236 lang=java
  *
  * [236] 二叉树的最近公共祖先
@@ -14,6 +14,10 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+
+import java.util.*;
+import Tree.*;
+
 class Solution {
     
     TreeNode ans = null;

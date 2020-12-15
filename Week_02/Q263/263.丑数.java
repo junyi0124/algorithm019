@@ -1,11 +1,11 @@
-/*
+package Q263;/*
  * @lc app=leetcode.cn id=263 lang=java
  *
  * [263] 丑数
  */
 
 // @lc code=start
-class Solution {
+class leetCode263 {
     public boolean isUgly(int num) {
         if (num < 1) return false;
         while (num % 2 == 0) num /= 2;

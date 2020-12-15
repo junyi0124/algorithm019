@@ -1,4 +1,4 @@
-package Week_01;
+package Q189;
 
 // 189. 旋转数组
 // 给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数。
@@ -24,10 +24,10 @@ package Week_01;
 
 public class RotateArrays {
     public void rotate(int[] nums, int k) {
-        if (nums == null) {
+        if (nums == null || nums.length == 0) {
             return;
         }
-        k  = k % nums.length;
+        k = k % nums.length;
         swapArray(0, nums.length - 1, nums);
         swapArray(0, k - 1, nums);
         swapArray(k, nums.length - 1, nums);

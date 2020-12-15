@@ -1,7 +1,6 @@
-package Week_04;
-
 public class BinarySearch {
     public int binarySearch(int[] array, int target) {
+
         int left = 0, right = array.length - 1, mid;
         while (left <= right) {
             mid = (right - left) / 2 + left;
@@ -14,13 +13,13 @@ public class BinarySearch {
                 left = mid + 1;
             }
         }
-
-        return -1;
+        return 0;
     }
 
     public static void main(String[] args) {
         System.out.println(new BinarySearch().binarySearch(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 7));
     }
 }
+
 
 

@@ -1,8 +1,10 @@
-/*
+package Q047;/*
  * @lc app=leetcode.cn id=47 lang=java
  *
  * [47] 全排列 II
  */
+
+import java.util.*;
 
 // @lc code=start
 class Solution {
@@ -35,11 +37,6 @@ class Solution {
             perm.remove(idx);
         }
     }
-
-作者：LeetCode-Solution
-链接：https://leetcode-cn.com/problems/permutations-ii/solution/quan-pai-lie-ii-by-leetcode-solution/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 }
 // @lc code=end
 

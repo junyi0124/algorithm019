@@ -1,8 +1,10 @@
-/*
+package Q046;/*
  * @lc app=leetcode.cn id=46 lang=java
  *
  * [46] 全排列
  */
+
+import java.util.*;
 
 // @lc code=start
 class Solution {

@@ -1,4 +1,4 @@
-/*
+package Q589;/*
  * @lc app=leetcode.cn id=589 lang=java
  *
  * [589] N叉树的前序遍历
@@ -23,6 +23,8 @@ class Node {
     }
 };
 */
+import Tree.Node;
+
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
