@@ -1,7 +1,7 @@
 学习笔记
 
 ## 四件套
-1. clarifaction
+1. clarification - 澄清问题
 2. possible solution -> optimal (time & space)
 3. code
 4. test case

@@ -24,10 +24,10 @@ package Q189;
 
 public class RotateArrays {
     public void rotate(int[] nums, int k) {
-        if (nums == null) {
+        if (nums == null || nums.length == 0) {
             return;
         }
-        k  = k % nums.length;
+        k = k % nums.length;
         swapArray(0, nums.length - 1, nums);
         swapArray(0, k - 1, nums);
         swapArray(k, nums.length - 1, nums);
