@@ -1,4 +1,4 @@
-package Week_06.l91;
+package l91;
 
 /*
  * @lc app=leetcode.cn id=91 lang=java
