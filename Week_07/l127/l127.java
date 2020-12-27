@@ -11,7 +11,7 @@ import java.util.List;
 // @lc code=start
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        
+        return 0;
     }
 }
 // @lc code=end

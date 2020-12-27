@@ -9,7 +9,7 @@ package l433;
 // @lc code=start
 class Solution {
     public int minMutation(String start, String end, String[] bank) {
-
+        return 0;
     }
 }
 // @lc code=end
