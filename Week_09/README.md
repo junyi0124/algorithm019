@@ -43,9 +43,3 @@ dp[i][j] = 0;
 - QPS 峰值计算
 
 
-#学号:G20200607010920
-#姓名:张君毅
-#班级:19期
-#语言:java
-#作业链接:https://github.com/junyi0124/algorithm019/tree/main/Week_09
-#总结链接:https://github.com/junyi0124/algorithm019/blob/main/Week_09/README.md
